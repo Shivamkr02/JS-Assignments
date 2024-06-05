@@ -1,5 +1,7 @@
 let a=prompt("Enter the character");
+
 let res="It is ";
+a = a.tolowercase();
 switch(a){
     case "a":
         res += "a vowel";
