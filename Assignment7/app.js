@@ -1,7 +1,7 @@
 let a=prompt("Enter the number");
 
 if (isNaN(a)){
-    document.write(`Please enter valid number`);
+    document.write(`You did not input a number`);
 }
 else{
     switch(a%2){
