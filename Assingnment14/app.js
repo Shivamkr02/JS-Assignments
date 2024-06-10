@@ -1,5 +1,6 @@
 let a = Number(prompt("Enter the integer"));
 
+
 let sumOfEven=0;
 
 let sumOfOdd =0;
