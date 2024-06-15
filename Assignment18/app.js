@@ -1,7 +1,7 @@
-// Array to store names
+
 let names = [];
 
-// Accept 5 names from the user
+
 for (let i = 0; i < 5; i++) {
     let name = prompt("Enter a name:");
     names.push(name);
@@ -19,7 +19,7 @@ while (idx !== -1) {
     idx = names.indexOf(searchName, idx + 1);
 }
 
-// Print the results
+
 if (indices.length > 0) {
     document.write(`The name "${searchName}" was found at the following positions: ${indices.join(", ")}`);
 } else {
