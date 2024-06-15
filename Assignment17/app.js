@@ -26,7 +26,6 @@ if (isNaN(num) || num <= 0) {
         }
     }
 
-    // Print the prime numbers
     console.log("Prime numbers up to " + num + ":");
     console.log(primes.join(", "));
 }
