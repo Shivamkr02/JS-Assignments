@@ -8,6 +8,6 @@ for(let i=0;i<inputArray.length;i++){
     if(value !== 0 && value !== false && value !== undefined && value !== null && !Number.isNaN(value) && value !== ""){
         outputArray.push(value);
     }
-}
+} 
 
 document.write(`Output Array: ${outputArray}`);
