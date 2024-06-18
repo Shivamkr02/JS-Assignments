@@ -9,5 +9,5 @@ myCar.stereo.name = "Sony";
 myCar.stereo.maxVol = 90;
 
 for(let i in myCar){
-    console.log(myCar);
+    console.log(myCar[i]);
 }
