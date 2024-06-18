@@ -8,6 +8,11 @@ myCar.stereo = new Object():
 myCar.stereo.name = "Sony";
 myCar.stereo.maxVol = 90;
 
-for(let i in myCar){
-    console.log(myCar[i]);
+for(key in myCar){
+    if(typeof myCar[key] !== 'object')
+        console.log(key + ":" +myCar[key]);
+    else{
+        for(x in myCar[key])
+            console.log(x + ":" + myCar[key][x]);
+    }
 }
