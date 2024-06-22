@@ -1,10 +1,3 @@
-let evenOdd = n => {
-    if(n%2 === 0){
-        document.write(`${n} is even number`);
-    }
-    else{
-        document.write(`${n} is odd number`);
-    }
-}
+let evenOdd = n => n % 2 == 0 ? `${n} is even` : `${n} is Odd`;
 
 evenOdd(10);
