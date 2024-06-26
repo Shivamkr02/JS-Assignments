@@ -1,4 +1,3 @@
-
 let students = {
     name : "Sumit",
     age : 15,
