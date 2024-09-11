@@ -7,3 +7,6 @@ function show(){
         console.log(x);
     });
 }
+
+
+
