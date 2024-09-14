@@ -8,6 +8,8 @@ function mySort(a,b){
         return 0;
 }
 
+
+
 let arr = [7,2,9,1,5,25];
 document.write("<b>Before Sorting: </b><br>");
 for(let x of arr)
